@@ -72,8 +72,8 @@ export function Projects() {
                         image={portfolio} 
                         alt='Meu Portfólio.' 
                         info='Meu portfólio pessoal, desenvolvido pensando em uma experiência responsiva e dinâmica, utilizando ReactJS e aproveitando o poder de bibliotecas complementares para aprimorar a funcionalidade e o design.'
-                        linkGit='https://portfolio-vinimaculo.vercel.app/'
-                        linkDeploy='https://github.com/viniciusmaculo/Portfolio'
+                        linkGit='https://github.com/viniciusmaculo/Portfolio'
+                        linkDeploy='https://portfolio-vinimaculo.vercel.app/'
                     />
 
                     <ProjectItem 
