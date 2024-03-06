@@ -44,7 +44,7 @@ export function Contact(){
             scrollTrigger:{
                 trigger: ".screenAnimation3",
                 start: "top 900px",
-                end: "bottom 1000px",
+                end: "bottom 1350px",
                 scrub: true
             }
         })

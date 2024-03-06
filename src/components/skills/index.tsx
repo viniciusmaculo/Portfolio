@@ -39,7 +39,7 @@ export function Skills() {
             scrollTrigger:{
                 trigger: ".screenAnimation",
                 start: "top 900px",
-                end: "bottom 1000px",
+                end: "bottom 1150px",
                 scrub: true
             }
         })
