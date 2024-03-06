@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(#0f0c29, #302b63, #24243e);
+  min-height: 100vh;
+  font-family: "Roboto", Sans-Serif;
+}
