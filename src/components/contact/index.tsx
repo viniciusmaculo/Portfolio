@@ -16,23 +16,23 @@ export function Contact(){
         if(name === '' || email === '' || text === '') {
             alert("Preencha todos os campos.")
             return
-        }
-
-        const templateParams = {
-            from_name: name,
-            message: text,
-            email: email
-        }
-        
-        emailjs.send("service_h780tr8", "template_fbhmkqu", templateParams, "TXk9zSaseikU5yKyG")
-        .then(() => {
-            alert("E-mail enviado com sucesso!")
-            setName('')
-            setEmail('')
-            setText('')
-        }), (error: any) => {
-            alert("Ocorreu um erro.")
-            console.log(error)
+        } else {
+            const templateParams = {
+                from_name: name,
+                message: text,
+                email: email
+            }
+            
+            emailjs.send("service_h780tr8", "template_fbhmkqu", templateParams, "TXk9zSaseikU5yKyG")
+            .then(() => {
+                alert("E-mail enviado com sucesso!")
+                setName('')
+                setEmail('')
+                setText('')
+            }), (error: any) => {
+                alert("Ocorreu um erro.")
+                console.log(error)
+            }
         }
     }
 
