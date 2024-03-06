@@ -15,6 +15,7 @@ export function Contact(){
 
         if(name === '' || email === '' || text === '') {
             alert("Preencha todos os campos.")
+            return
         }
 
         const templateParams = {
