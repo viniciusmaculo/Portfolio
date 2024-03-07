@@ -53,7 +53,7 @@ export function Skills() {
         <section className='screenAnimation'>
             <div className="flex flex-col justify-center items-center my-16 pt-4 itemAnimation translate-y-[5rem] opacity-0" id='skills'>
                 <h1 className="text-white font-bold text-4xl tracking-wide">Skills</h1> 
-                <h2 className='text-zinc-100 m-8 text-center tracking-wide'>Aqui estão algumas das minhas habilidades nas quais tenho trabalho.</h2>   
+                <h2 className='text-zinc-100 m-8 text-center tracking-wide'>Aqui estão algumas das minhas habilidades nas quais tenho trabalhado.</h2>   
                 <div className="flex flex-row justify-center items-center gap-8 flex-wrap ">
 
                     <SkillItem icon={react} alt="Ícone do React" name="React" />
