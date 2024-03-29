@@ -46,12 +46,12 @@ export function Projects() {
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
         gsap.to(".itemAnimation2", {
-            y: 0,
+            x: 0,
             opacity: 1,
             scrollTrigger:{
                 trigger: ".screenAnimation2",
-                start: "top 900px",
-                end: "bottom 1350px",
+                start: "top 95%",
+                end: "top 50%",
                 scrub: true
             }
         })
@@ -63,7 +63,7 @@ export function Projects() {
 
     return (
         <section className='screenAnimation2'>
-            <div className="flex flex-col justify-center items-center pt-4 itemAnimation2 translate-y-[5rem] opacity-0" >
+            <div className="flex flex-col justify-center items-center pt-4 itemAnimation2 translate-x-[-10rem] opacity-0" >
                 <h1 className="text-white font-bold text-4xl tracking-wide">Projetos</h1> 
                 <h2 className='text-zinc-100 m-8 text-center tracking-wide'>Aqui estão alguns dos projetos pessoais que desenvolvi.</h2>   
                 <div className="flex flex-row justify-center items-center gap-8 flex-wrap">

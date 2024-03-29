@@ -39,12 +39,12 @@ export function Contact(){
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
         gsap.to(".itemAnimation3", {
-            y: 0,
+            x: 0,
             opacity: 1,
             scrollTrigger:{
                 trigger: ".screenAnimation3",
-                start: "top 900px",
-                end: "bottom 1350px",
+                start: "top 95%",
+                end: "top 50%",
                 scrub: true
             }
         })
@@ -56,7 +56,7 @@ export function Contact(){
 
     return(
         <section className='screenAnimation3'>
-            <div className="flex flex-col justify-center items-center my-16 pt-4 itemAnimation3 translate-y-[5rem] opacity-0" id="contact">
+            <div className="flex flex-col justify-center items-center my-16 pt-4 itemAnimation3 translate-x-[-10rem] opacity-0" id="contact">
                 <h1 className="text-white font-bold text-4xl tracking-wide">Contato</h1> 
                 <h2 className='text-zinc-100 m-8 text-center tracking-wide'>Sinta-se à vontade para entrar em contato comigo em caso de dúvidas ou oportunidades!</h2>
                 <form className="flex flex-col" onSubmit={sendEmail}>
