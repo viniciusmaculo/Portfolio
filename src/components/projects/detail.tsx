@@ -15,7 +15,7 @@ export function ProjectDetails({ project, onClose }: ProjectDetailsProps) {
     useEffect(() => {
         gsap.from(detailsRef.current, {
             duration: 1,
-            y: 65,
+            y: 50,
             ease: "power3.out",
         });
     }, []);
