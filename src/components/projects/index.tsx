@@ -36,7 +36,7 @@ export function Projects() {
             nameProject: 'MyLinks',
             image: mylinks,
             alt: 'Projeto MyLinks.',
-            info: 'Agregador de links em ReactJS que permite aos usuários realizar cadastro, criar, personalizar e compartilhar seus principais links de forma intuitiva e eficaz.',
+            info: 'Agregador de links em React que permite aos usuários realizar cadastro, criar, personalizar e compartilhar seus principais links de forma intuitiva e eficaz.',
             linkGit: 'https://github.com/viniciusmaculo/mylinks',
             linkDeploy: 'https://mylinks-lovat.vercel.app/',
             technologies: ["React", "TypeScript", "TailwindCSS", "Firebase"]
@@ -45,7 +45,7 @@ export function Projects() {
             nameProject: 'Cartaz Flix',
             image: cartazflix,
             alt: 'Projeto Cartaz Flix.',
-            info: 'Site em ReactJS que utiliza uma API de filmes para exibir as últimas estreias. Os usuários podem salvar seus filmes favoritos localmente, pesquisar por filmes específicos e acessar informações detalhadas sobre cada filme.',
+            info: 'Site em React que utiliza uma API de filmes para exibir as últimas estreias. Os usuários podem salvar seus filmes favoritos localmente, pesquisar por filmes específicos e acessar informações detalhadas sobre cada filme.',
             linkGit: 'https://github.com/viniciusmaculo/cartazflix',
             linkDeploy: 'https://cartazflix.vercel.app/',
             technologies: ["React", "JavaScript"]
