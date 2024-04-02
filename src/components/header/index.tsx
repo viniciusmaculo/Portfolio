@@ -10,7 +10,7 @@ export function Header() {
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-[#100d2bf5]">
             <div className="flex justify-around m-5 font-bold text-white items-center sm:hidden">
-                <h1 className="cursor-pointer hover:scale-105 duration-500 tracking-wider">{`<Portfólio/>`}</h1>   
+                <a href='#'><h1 className="cursor-pointer hover:scale-105 duration-500 tracking-wider" >{`<Portfólio/>`}</h1></a>   
 
                 <nav>
                     <ul className="flex gap-5 cursor-pointer tracking-wider sm:gap-2">
@@ -23,7 +23,7 @@ export function Header() {
             </div>
 
             <div className="sm:flex justify-between items-center m-5 font-bold text-white hidden">
-                <h1 className="cursor-pointer hover:scale-105 duration-500 tracking-wider">{`<Portfólio/>`}</h1>
+                <a href='#'><h1 className="cursor-pointer hover:scale-105 duration-500 tracking-wider">{`<Portfólio/>`}</h1></a>
                 <button onClick={toggleMenu} className="text-white focus:outline-none">
                     <svg
                         className="w-6 h-6"
