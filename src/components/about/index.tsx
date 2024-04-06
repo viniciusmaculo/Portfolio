@@ -2,6 +2,7 @@ import me from '../../assets/me.jpeg'
 import { useLayoutEffect } from 'react'
 import { gsap } from 'gsap'
 import { RiArrowDownDoubleFill } from "react-icons/ri";
+import { Cursor } from 'react-simple-typewriter';
 
 export function About() {
 
@@ -20,7 +21,7 @@ export function About() {
 
                 <h1 className='text-xl mb-5 lg:mb-3'>Olá, meu nome é</h1>
                 <h1 className='font-bold text-4xl mb-5 tracking-wide lg:text-3xl lg:mb-3'>Vinícius Maçulo</h1>
-                <h2 className='font-bold text-4xl mb-5 lg:text-2xl lg:mb-3'>Sou <span className='text-orange-500'>Desenvolvedor Front-End</span></h2>
+                <h2 className='font-bold text-4xl mb-5 lg:text-2xl lg:mb-3'>Sou <span className='text-orange-500'>Desenvolvedor Front-End<Cursor/></span></h2>
                 <p className='max-w-xl text-lg mb-8'>
                 Poder criar interfaces atraentes e funcionais sempre me fascinou, e tenho dedicado tempo e esforço para aprofundar meus conhecimentos nessa área. 
                 Possuo habilidades sólidas em ReactJS, HTML, CSS e TypeScript, buscando constantemente aprimorar minha experiência nessas e em outras tecnologias.
